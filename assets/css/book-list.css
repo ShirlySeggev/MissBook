@@ -1,0 +1,22 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CFE4F6;
+    padding-top: 25px;
+}
+
+.home-container * {
+    background-color: #CFE4F6;
+    margin: 0;
+}
+
+.book-container {
+    display: flex;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -1,0 +1,32 @@
+.review-container {
+    border: 1px solid #4C394E;
+    display: flex;
+    margin: 15px;
+    /* padding: 10px; */
+}
+
+.reviews {
+    width: 50%
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    border-left: 1px solid #4C394E;
+}
+
+.review {
+    border-bottom: 1px solid #4C394E;
+}
+
+textarea,
+select {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    width: 100%;
+    resize: none;
+}

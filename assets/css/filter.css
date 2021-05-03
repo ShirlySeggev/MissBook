@@ -1,0 +1,22 @@
+.book-filter {
+    background-color: #73777a;
+    display: flex;
+    justify-content: space-between;
+    font-family: lato-bold;
+    box-shadow: 0 0px 3px 2px #7e7d7d78;
+    margin: 15px;
+}
+
+.book-filter label {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    width: 100%;
+}

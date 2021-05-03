@@ -1,0 +1,68 @@
+@import './bookAdd.css';
+@import './user-msg.css';
+@import './header.css';
+@import './filter.css';
+@import './book-list.css';
+@import './book-details.css';
+@import './book-review.css';
+@font-face {
+    font-family: lato-bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: lato-light;
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    color: #040a2c;
+}
+
+body {
+    background-color: rgb(226, 234, 236);
+    font-family: lato-light;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 0 1rem;
+    font-family: lato-bold;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: #10BBD5;
+    color: whitesmoke;
+    border-radius: 4px;
+    padding: 10px 24px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #39cfe6;
+    transition: .3s;
+}
+
+footer {
+    background-color: #4C394E;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

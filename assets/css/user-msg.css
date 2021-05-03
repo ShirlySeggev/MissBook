@@ -1,0 +1,19 @@
+.user-msg {
+    position: fixed;
+    /* right: 50%; */
+    bottom: 50%;
+    background-color: honeydew;
+    color: #333;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 4px;
+    background-color: #E2EAEC;
+}
+
+.user-msg.error {
+    border: 3px solid rgb(182, 58, 58);
+}
+
+.user-msg.success {
+    border: 3px solid rgb(18, 156, 18);
+}
